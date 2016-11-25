@@ -1430,7 +1430,15 @@
     'captures':
       '1':
         'name': 'punctuation.definition.entity.css'
-    'match': '(:+)((-(moz|webkit|ms)-)?(after|before|first-letter|first-line|selection))\\b'
+      '2':
+        'name': 'punctuation.definition.entity.css'
+    'match': '''(?x)
+      (?:
+        (::?+)(?:after|before|first-letter|first-line|(?:-(?:webkit|moz|ms)-)[a-z-]++)
+      | (::)(?:backdrop|content|placeholder|selection|shadow)
+      )
+      (?![\\w-])
+    '''
     'name': 'entity.other.attribute-name.pseudo-element.css'
   'selectors':
     'comment': 'Stuff for Selectors.'
