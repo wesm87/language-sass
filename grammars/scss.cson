@@ -1154,6 +1154,7 @@
       zoom|z-index|
       y|
       x|
+      composes|
       wrap|word-wrap|word-spacing|word-break|word|width|widows|will-change|white-space-collapse|white-space|white|weight|
       volume|voice-volume|voice-stress|voice-rate|voice-pitch-range|voice-pitch|voice-family|voice-duration|voice-balance|voice|visibility|vertical-align|variant|
       user-select|up|unicode-bidi|unicode|
