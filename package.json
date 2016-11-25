@@ -10,10 +10,10 @@
   "homepage": "http://atom.github.io/language-sass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-sass.git"
+    "url": "https://github.com/wesm87/language-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/atom/language-sass/issues"
+    "url": "https://github.com/wesm87/language-sass/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
